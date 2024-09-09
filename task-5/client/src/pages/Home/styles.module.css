@@ -1,0 +1,13 @@
+.dateContainer {
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 24px;
+}
+.descContainer {
+  margin-top: 4px;
+  text-align: justify;
+}
+
+.card:hover{
+    background-color: #f0f0f0;
+}
