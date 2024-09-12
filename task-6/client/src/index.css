@@ -1,0 +1,45 @@
+body {
+  background-color: #fafafa;
+  padding: 2vh 12vw;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.ant-menu-item:hover::after {
+  border-bottom-color: rgb(10, 10, 10) !important;
+}
+
+.ant-menu-item-selected::after {
+  border-bottom-color: rgb(10, 10, 10) !important;
+}
+
+.ant-menu-item-selected .ant-menu-title-content a,
+.ant-menu-item-selected .anticon {
+  color: rgb(10, 10, 10) !important;
+}
+
+.ant-menu-item:hover::after .ant-menu-title-content {
+  color: #f8f8f8;
+}
+
+.ant-menu-horizantal > .ant-menu-item a:hover {
+  color: rgb(10, 10, 10);
+}
+
+.ant-menu-horizantal > .ant-menu-item a {
+  color: #f8f8f8;
+}
+
+.ant-menu-title-content a {
+  color: #58595a !important;
+}
+
+.loadingContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}

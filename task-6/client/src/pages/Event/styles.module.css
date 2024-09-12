@@ -1,0 +1,43 @@
+.titleContainer {
+  text-align: center;
+  font-size: 24px;
+}
+.descContainer {
+  padding: 2px 8px;
+  text-align: justify;
+  font-size: large;
+}
+.locationDescContainer {
+  text-align: justify;
+}
+
+.details {
+  margin: 24px 0px;
+}
+
+.participants {
+  margin: 24px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.participantItem {
+  margin: 0px 4px;
+  text-align: center;
+  color: #222121;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+.participantItem .ant-card-body {
+  padding: 0px !important;
+}
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
