@@ -1,0 +1,22 @@
+scalar DateTime @specifiedBy(url: "https://scalars.graphql.org/andimarek/date-time")
+
+type Message {
+  message: String!
+  date: DateTime!
+}
+
+input CreateMessageInput {
+  message: String!
+}
+
+type Query {
+  messages: [Message!]
+}
+
+type Mutation {
+  createMessage(data: CreateMessageInput!): Message
+}
+
+type Subscription {
+  messageCreated: Message!
+}
